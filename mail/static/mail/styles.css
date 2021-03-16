@@ -1,0 +1,47 @@
+textarea {
+    min-height: 400px;
+}
+
+.email {
+    border: 1px solid black;
+    display: flex;
+    padding: 5px;
+}
+
+#emails-view {
+    text-align: center;
+}
+
+#email-subject {
+    width: 70%;
+    text-align: left;
+}
+
+#date {
+    text-align: right;
+    color: silver;
+    width: 30%;
+}
+
+#email-link {
+    color: black;
+    text-decoration: none;
+}
+
+#header {
+    margin: 10px 0;
+    border-bottom: 0.5px solid silver;
+    padding-bottom: 20px;
+}
+
+.email:hover {
+    cursor: pointer;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#emails-view {
+    margin-bottom: 30px;
+}
